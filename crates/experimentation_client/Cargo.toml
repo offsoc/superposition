@@ -14,7 +14,7 @@ serde_json = { workspace = true }
 superposition_types = { path = "../superposition_types", features = [
     "experimentation",
 ] }
-tokio = { version = "1.29.1", features = ["full"] }
+tokio = { version = "1.43.1", features = ["full"] }
 
 [lib]
 name = "experimentation_client"
